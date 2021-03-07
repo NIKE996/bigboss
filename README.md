@@ -1,2 +1,0 @@
-# bigboss
-hello world！
