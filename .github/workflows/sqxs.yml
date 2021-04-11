@@ -53,12 +53,12 @@ jobs:
           node-version: 12.x
       - name: npm install
         run: |
-          cd ~/bigboss
+          cd ~/bigboss/Task
           git checkout master123
           npm install
       - name: '运行 【书旗小说】'
         run: |
-          cd ~/bigboss
+          cd ~/bigboss/Task
           node Task/sqxs.js
         env:
           
