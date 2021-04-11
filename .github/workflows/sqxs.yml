@@ -58,7 +58,7 @@ jobs:
           npm install
       - name: '运行 【书旗小说】'
         run: |
-          cd ~/bigboss/Task
+          cd ~/bigboss
           node Task/sqxs.js
         env:
           
